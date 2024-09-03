@@ -20,6 +20,9 @@ export default function App() {
         <Text style={styles.nameText}>Lukas Maibom</Text>
         <Text style={styles.titleText}>Junior frontend developer</Text>
       </View>
+      <View style={styles.button}>
+        <Button title="CV">CV</Button>
+      </View>
       <StatusBar style="auto" />
     </View>
   );

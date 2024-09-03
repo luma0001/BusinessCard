@@ -7,7 +7,7 @@ export default function Button({ label }) {
     <View style={styles.buttonContainer}>
       <Pressable
         style={styles.button}
-        onPress={() => alert("You pressed a button.")}
+        onPress={() => alert("To do: Add page that shows my cv.")}
       >
         <Text style={styles.buttonLabel}>{label}</Text>
       </Pressable>
@@ -19,7 +19,7 @@ const styles = StyleSheet.create({
   buttonContainer: {
     width: 320,
     height: 68,
-    marginHorizontal: 20,
+    marginHorizontal: 100,
     alignItems: "center",
     justifyContent: "center",
     padding: 3,
@@ -33,10 +33,10 @@ const styles = StyleSheet.create({
     flexDirection: "row",
   },
   buttonIcon: {
-    paddingRight: 8,
+    paddingRight: 2,
   },
   buttonLabel: {
-    color: "#fff",
-    fontSize: 16,
+    backgroundColor: "#000000",
+    fontSize: 18,
   },
 });
